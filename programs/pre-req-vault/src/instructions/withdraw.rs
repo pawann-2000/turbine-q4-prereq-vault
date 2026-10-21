@@ -35,7 +35,7 @@ pub struct Withdraw<'info> {
     )]
     pub application_account: UncheckedAccount<'info>,
 
-    pub application_program: Program<'info, registration::program::Q3PreReqsRs>,
+    pub application_program: Program<'info, registration::program::Q4PreReqsRs>,
 
     system_program: Program<'info, System>,
 }
